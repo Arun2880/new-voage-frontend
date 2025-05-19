@@ -430,7 +430,7 @@ const OurClasslist = () => {
                                         color="primary"
                                         size="small"
                                         onClick={() => {
-                                            const fullUrl = `http://localhost:5000/${formatFileUrl(note.fileUrl)}`;
+                                            const fullUrl = `https://admin.voagelearning.com/${formatFileUrl(note.fileUrl)}`;
                                             window.open(fullUrl, '_blank');
                                         }}
                                         sx={{ ml: 2 }}
@@ -491,7 +491,7 @@ const OurClasslist = () => {
                                                 color="primary"
                                                 size="small"
                                                 onClick={() => {
-                                                    const fullUrl = `http://localhost:5000/${formatFileUrl(homework.fileUrl)}`;
+                                                    const fullUrl = `https://admin.voagelearning.com/${formatFileUrl(homework.fileUrl)}`;
                                                     window.open(fullUrl, '_blank');
                                                 }}
                                                 sx={{ ml: 2 }}

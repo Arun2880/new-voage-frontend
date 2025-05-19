@@ -141,7 +141,7 @@ const Yournotice = () => {
   };
 
   const downloadAttachment = (filename) => {
-    const fileUrl = `http://localhost:5000/uploads/notices/${filename}`;
+    const fileUrl = `https://admin.voagelearning.com/uploads/notices/${filename}`;
     window.open(fileUrl, '_blank');
   };
 
@@ -299,7 +299,7 @@ const Yournotice = () => {
           {currentAttachment && (
             getAttachmentType(currentAttachment) === 'pdf' ? (
               <iframe 
-                src={`http://localhost:5000/uploads/notices/${currentAttachment}`}
+                src={`https://admin.voagelearning.com/uploads/notices/${currentAttachment}`}
                 width="100%"
                 height="600px"
                 style={{ border: 'none' }}
@@ -307,7 +307,7 @@ const Yournotice = () => {
               />
             ) : (
               <img
-                src={`http://localhost:5000/uploads/notices/${currentAttachment}`}
+                src={`https://admin.voagelearning.com/uploads/notices/${currentAttachment}`}
                 alt="Notice Attachment"
                 style={{ width: '100%', height: 'auto' }}
               />

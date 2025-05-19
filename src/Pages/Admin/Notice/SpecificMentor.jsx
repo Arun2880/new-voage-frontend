@@ -182,7 +182,7 @@ const SpecificMentor = () => {
                         icon={<PersonIcon />}
                         label="Attachment available"
                         variant="outlined"
-                        onClick={() => window.open(`http://localhost:5000/uploads/notices/${notice.noticeimage}`, '_blank')}
+                        onClick={() => window.open(`https://admin.voagelearning.com/uploads/notices/${notice.noticeimage}`, '_blank')}
                         style={{ cursor: 'pointer' }}
                       />
                     )}

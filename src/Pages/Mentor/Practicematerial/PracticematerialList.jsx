@@ -285,7 +285,7 @@ const PracticematerialList = () => {
                               variant="contained"
                               size="small"
                               startIcon={<DownloadIcon />}
-                              href={`http://localhost:5000/${material.materialimages[0]}`}
+                              href={`https://admin.voagelearning.com/${material.materialimages[0]}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               sx={{

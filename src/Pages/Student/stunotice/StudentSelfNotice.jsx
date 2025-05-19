@@ -52,7 +52,7 @@ const StudentSelfNotice = () => {
                                 <div className="mt-2">
                                     {notice.noticeimage.endsWith(".pdf") ? (
                                         <a 
-                                            href={`http://localhost:5000/uploads/notices/${notice.noticeimage}`} 
+                                            href={`https://admin.voagelearning.com/uploads/notices/${notice.noticeimage}`} 
                                             target="_blank" 
                                             rel="noopener noreferrer"
                                             className="d-inline-block"
@@ -72,12 +72,12 @@ const StudentSelfNotice = () => {
                                         </a>
                                     ) : (
                                         <a 
-                                            href={`http://localhost:5000/uploads/notices/${notice.noticeimage}`} 
+                                            href={`https://admin.voagelearning.com/uploads/notices/${notice.noticeimage}`} 
                                             target="_blank" 
                                             rel="noopener noreferrer"
                                         >
                                             <img 
-                                                src={`http://localhost:5000/uploads/notices/${notice.noticeimage}`} 
+                                                src={`https://admin.voagelearning.com/uploads/notices/${notice.noticeimage}`} 
                                                 alt="Notice Attachment" 
                                                 style={{ 
                                                     maxWidth: '60px',

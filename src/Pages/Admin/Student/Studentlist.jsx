@@ -187,12 +187,12 @@ const Studentlist = () => {
       width: 150,
       renderCell: (params) => (
         <a
-          href={`http://localhost:5000/${params.value}`}
+          href={`https://admin.voagelearning.com/${params.value}`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
-            src={`http://localhost:5000/${params.value}`}
+            src={`https://admin.voagelearning.com/${params.value}`}
             alt="Aadhar Card"
             style={{ width: 50, height: 50, borderRadius: "50%", cursor: "pointer" }}
           />

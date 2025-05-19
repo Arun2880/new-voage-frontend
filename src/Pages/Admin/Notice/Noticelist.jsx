@@ -346,7 +346,7 @@ const NoticeList = () => {
                                         <ListItem 
                                             button 
                                             component="a" 
-                                            href={`http://localhost:5000/uploads/notices/${notice.noticeimage}`}
+                                            href={`https://admin.voagelearning.com/uploads/notices/${notice.noticeimage}`}
                                             target="_blank"
                                         >
                                             <ListItemIcon>
@@ -359,7 +359,7 @@ const NoticeList = () => {
                                         </ListItem>
                                     </List>
                                     {/* {getFilePreview(
-                                        `http://localhost:5000/uploads/notices/${notice.noticeimage}`,
+                                        `https://admin.voagelearning.com/uploads/notices/${notice.noticeimage}`,
                                         notice.noticeimage
                                     )} */}
                                 </AttachmentContainer>

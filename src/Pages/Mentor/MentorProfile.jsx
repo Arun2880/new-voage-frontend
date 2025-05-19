@@ -180,7 +180,7 @@ const MentorProfile = () => {
               <Card sx={{ marginBottom: "20px", boxShadow: 3 }}>
                 <CardContent sx={{ textAlign: "center" }}>
                   <Avatar
-                    src={`http://localhost:5000/${profileData.profile}`}
+                    src={`https://admin.voagelearning.com/${profileData.profile}`}
                     alt="Profile"
                     sx={{
                       width: "150px",
@@ -327,7 +327,7 @@ const MentorProfile = () => {
                         size="small"
                         onClick={() =>
                           window.open(
-                            `http://localhost:5000/${profileData.adharimage}`,
+                            `https://admin.voagelearning.com/${profileData.adharimage}`,
                             "_blank"
                           )
                         }

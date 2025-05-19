@@ -97,7 +97,7 @@ const YourhomeworkList = () => {
         return (
           <Box display="flex" gap={1}>
             {files.map((file, index) => {
-              const fileUrl = `http://localhost:5000/${file.replace(/\\/g, '/')}`;
+              const fileUrl = `https://admin.voagelearning.com/${file.replace(/\\/g, '/')}`;
               return (
                 <IconButton
                   key={index}

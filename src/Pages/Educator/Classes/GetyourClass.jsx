@@ -841,7 +841,7 @@ const GetyourClass = () => {
                     startIcon={<Visibility />}
                     onClick={() => {
                       if (solution.fileUrl) {
-                        const fullUrl = `http://localhost:5000/${formatFileUrl(solution.fileUrl)}`;
+                        const fullUrl = `https://admin.voagelearning.com/${formatFileUrl(solution.fileUrl)}`;
                         window.open(fullUrl, '_blank');
                       }
                     }}

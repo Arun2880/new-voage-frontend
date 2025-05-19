@@ -184,7 +184,7 @@ const Educatorprofile = () => {
             >
               <CardContent sx={{ textAlign: 'center' }}>
                 <Avatar
-                  src={`http://localhost:5000/${profileData.profile}`}
+                  src={`https://admin.voagelearning.com/${profileData.profile}`}
                   alt="Profile"
                   sx={{
                     width: '150px',
@@ -362,7 +362,7 @@ const Educatorprofile = () => {
                       variant="outlined"
                       color="primary"
                       sx={{ textTransform: 'none' }}
-                      onClick={() => window.open(`http://localhost:5000/${profileData.adharimage}`, '_blank')}
+                      onClick={() => window.open(`https://admin.voagelearning.com/${profileData.adharimage}`, '_blank')}
                     >
                       View Aadhar
                     </Button>
@@ -375,7 +375,7 @@ const Educatorprofile = () => {
                       variant="outlined"
                       color="primary"
                       sx={{ textTransform: 'none' }}
-                      onClick={() => window.open(`http://localhost:5000/${profileData.panimage}`, '_blank')}
+                      onClick={() => window.open(`https://admin.voagelearning.com/${profileData.panimage}`, '_blank')}
                     >
                       View PAN
                     </Button>
@@ -388,7 +388,7 @@ const Educatorprofile = () => {
                       variant="outlined"
                       color="primary"
                       sx={{ textTransform: 'none' }}
-                      onClick={() => window.open(`http://localhost:5000/${profileData.degree}`, '_blank')}
+                      onClick={() => window.open(`https://admin.voagelearning.com/${profileData.degree}`, '_blank')}
                     >
                       View Degree
                     </Button>

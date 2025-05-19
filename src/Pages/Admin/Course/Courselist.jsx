@@ -182,7 +182,7 @@ const Courselist = () => {
               <StyledCard>
                 <Box sx={{ position: 'relative' }}>
                   <CourseImage
-                    image={course.courseimage ? `http://localhost:5000${course.courseimage}` : '/placeholder-course.jpg'}
+                    image={course.courseimage ? `https://admin.voagelearning.com${course.courseimage}` : '/placeholder-course.jpg'}
                     title={course.coursename}
                   />
                   <PriceChip label={`₹${course.price}`} />

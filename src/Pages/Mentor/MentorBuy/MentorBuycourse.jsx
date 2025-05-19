@@ -207,7 +207,7 @@ const MentorBuycourse = () => {
                                     <div className="card h-100">
                                         <div style={{ height: '100px', overflow: 'hidden', paddingTop: "10px" }}>
                                             <img
-                                                src={`http://localhost:5000${course.courseimage}`}
+                                                src={`https://admin.voagelearning.com${course.courseimage}`}
                                                 className="card-img-top img-fluid"
                                                 alt={course.coursename}
                                                 style={{ objectFit: 'contain', width: '100%', height: '100%' }}

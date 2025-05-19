@@ -94,7 +94,7 @@ const AllDatadEduStuAndBatch = () => {
         <Grid container spacing={3} alignItems="center">
           <Grid item xs={12} md={3} style={{ display: 'flex', justifyContent: 'center' }}>
             <Avatar
-              src={mentorData.profile ? `http://localhost:5000/${mentorData.profile}` : undefined}
+              src={mentorData.profile ? `https://admin.voagelearning.com/${mentorData.profile}` : undefined}
               alt={`${mentorData.firstname} ${mentorData.lastname}`}
               style={{ width: '150px', height: '150px',backgroundSize:"contain" }}
             >

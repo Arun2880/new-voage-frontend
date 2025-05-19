@@ -472,7 +472,7 @@ const Educatordashboard = () => {
             >
               <Avatar
                 variant="square"
-                src={`http://localhost:5000${course.courseimage}`}
+                src={`https://admin.voagelearning.com${course.courseimage}`}
                 alt={course.coursename}
                 sx={{
                   width: 60,

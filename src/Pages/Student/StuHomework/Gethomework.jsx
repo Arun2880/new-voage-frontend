@@ -221,7 +221,7 @@ const Gethomework = () => {
                         {homework.homeworkfiles.map((file, index) => (
                           <Link
                             key={index}
-                            href={`http://localhost:5000/${file}`}
+                            href={`https://admin.voagelearning.com/${file}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             sx={{ display: 'block', mb: 1 }}

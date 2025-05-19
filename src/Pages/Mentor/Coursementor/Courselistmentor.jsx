@@ -190,7 +190,7 @@ const Courselistmentor = () => {
       renderCell: (params) =>
         params.value ? (
           <img
-            src={`http://localhost:5000${params.value}`}
+            src={`https://admin.voagelearning.com${params.value}`}
             alt="Course"
             style={{ width: 50, height: 50, objectFit: "contain" }}
           />
